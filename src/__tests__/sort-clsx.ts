@@ -17,6 +17,8 @@ describe("test", () => {
   tester.run(ruleName, sortClsx, {
     valid: [
       { code: "<span className={clsx('aa b c d ee')}>SomeThink</span>" },
+      { code: "<span className={clsx('aa b c d ee', { testClassName: true }, className)}>SomeThink</span>" },
+      { code: "<span className={clsx({ testClassName: true }, 'aa b c d ee', className)}>SomeThink</span>" },
     ],
     invalid: [
       {

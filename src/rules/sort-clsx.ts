@@ -39,8 +39,6 @@ export const sortClsx: TSESLint.RuleModule<"sortClsx", []> = {
                   }
                 }
                 break;
-              case "ObjectExpression":
-                return;
               default: 
                 return;
             }
