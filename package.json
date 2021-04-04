@@ -1,6 +1,6 @@
 {
-  "name": "@mozudove/eslint-clsx-sort",
-  "version": "0.1.0",
+  "name": "eslint-plugin-sort-clsx",
+  "version": "0.1.1",
   "main": "dist/index.js",
   "repository": "ssh://git@github.com/RNm-dove/eslint-clsx-sort.git",
   "description": "ESLint rules for clsx",
@@ -15,9 +15,6 @@
   ],
   "author": "Nakagawa Ryosuke",
   "license": "MIT",
-  "dependencies": {
-    "clsx": "^1.1.1"
-  },
   "prettier": {
     "semi": false,
     "singleQuote": true,
